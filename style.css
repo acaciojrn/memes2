@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+img {
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Arial, Verdana, sans-serif;
+}
+
+/* header */
+header {
+  background-image: url(todosmemes.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #FFF;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+@media (min-width:768px) {
+  header h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width:1024px) {
+  header h1 {
+    font-size: 60px;
+  }
+}
+header h2 {
+  margin: 20px 0px;
+  font-size: 24px;
+}
+@media (min-width:768px) {
+  header h2 {
+    font-size: 32px;
+  }
+}
+@media (min-width:1024px) {
+  header h2 {
+    font-size: 48px;
+  }
+}
+header a {
+  display: inline-block;
+  background-color: #000;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+@media (min-width:768px) {
+  header a {
+    font-size: 24px;
+  }
+}
+@media (min-width:1024px) {
+  header a {
+    font-size: 32px;
+  }
+}
+.secao-destaques {
+  color: #808080;
+}
+
+.lista-destaques {
+  list-style: none;
+}
+@media (min-width: 1024px) {
+  .lista-destaques{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 30px 0px;
+  }
+
+}
+.item-destaques {
+  margin: 20px;
+  text-align: center;
+}
+.imagem-destaques {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 280px;
+  height: 280px;
+}
+.paragrafo-destaques{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+
+.secao-apresentacao {
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .secao-apresentacao {
+    padding: 20px 10vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .secao-apresentacao {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px 10vw;
+  }
+
+  .texto-apresentacao {
+    width: 40%;
+  }
+  .secao-apresentacao-contrario .texto-apresentacao {
+  order: 2;
+  }
+}
+
+.titulo-apresentacao {
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 20px;
+  width: 100%;
+}
+
+.secao-apresentacao-contrario .titulo-apresentacao {
+  text-align: right;
+}
+
+.paragrafo-apresentacao {
+  font-size: 18px;
+  margin: 5px 0px;
+}
+
+@media (min-width: 768px) {
+  .paragrafo-apresentacao {
+    margin: 20px 0px;
+    text-align: justify;
+  }
+}
+.imagem-apresentacao {
+  margin-top: 30px;
+}
+@media (min-width: 1024px) {
+  .imagem-apresentacao {
+    object-fit: contain;
+    width: 40%;
+  }
+}
+
+
+.secao-faixa {
+  padding: 10vh 0;
+  text-align: center;
+  background-color: #999
+}
+
+.faixa-titulo {
+  font-size: 32px;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.secao-contato {
+  background-color: #999;
+  padding: 20px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .secao-contato {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vh 10vw;
+  }
+}
+
+.titulo-contato {
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.texto-contato {
+  margin: 40px 0;
+  max-width: 380px;
+}
+
+.paragrafo-contato {
+  text-align: justify;
+  line-height: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.link-contato {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  background-color: #333;
+  width: 200px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.rodape {
+  padding: 5vh 10vw;
+}
+
+.lista-rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.rodape-item {
+  margin: auto 20px;
+}
+
+.rodape-link span {
+  font-size: 30px;
+}
+
+.fa-facebook-square {
+  color: #1E90FF;
+}
+
+.fa-youtube-square {
+  color: red;
+}
+
+.fa-instagram {
+  color: firebrick;
+}
